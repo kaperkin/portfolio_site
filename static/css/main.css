@@ -1,0 +1,49 @@
+/*****************Layout*********************/
+body{
+    padding-top: 70px;
+    background-color: #6c81a4;
+}
+
+.container{
+    max-width: 1100px;
+}
+
+.thumbnail{
+    background-color: #6c81a4;
+}
+/********************************************/
+
+
+/****************Jumbotron**********************/
+.jumbotron{
+    text-align: center;
+}
+/********************************************/
+
+#about{
+    padding-top: 50px;
+}
+
+#portfolio{
+    padding-top: 50px;
+}
+
+#resume{
+    padding-top: 50px;
+}
+
+#contact{
+    padding-top: 50px;
+}
+
+.btn-primary{
+    background-color: #FFAC00;
+}
+
+.btn-success{
+    background-color: #0060FF;
+}
+
+h2{
+    color: #eee;
+}
