@@ -9,7 +9,14 @@
     <title>Kaleena Perkins - Web Developer</title>
 
     <!-- CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
     <link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
     <link href="assets/css/animate.css" rel="stylesheet">
@@ -53,12 +60,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/#portfolio">Kaleena Perkins</a>
+                <a class="navbar-brand" href="index.html">Kaleena Perkins</a>
             </div>
 
             <div class="collapse navbar-collapse" id="custom-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/#portfolio">Home</a></li>
+                    <li><a href="index.html/#home">Home</a></li>
+                  <!--  <li><a href="#about">About</a></li> -->
+                    <li><a href="index.html/#portfolio">Portfolio</a></li>
+                    <li><a href="index.html/#skills">Skills</a></li>
+                    <li><a href="index.html/#resume">Resume</a></li>
+                    <li><a href="index.html/#contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -76,12 +88,11 @@
         <div class="col-sm-6 col-sm-offset-3">
 
             <div class="pfblock-header wow fadeInUp">
-                <h2 class="pfblock-title">Clackamas County Head Start</h2>
+                <h2 class="pfblock-title">Weather Forecast</h2>
 
                 <div class="pfblock-line"></div>
                 <div class="pfblock-subtitle">
-                    Client project currently being developed using Wordpress. Clackamas County Head Start wants a modern
-                    website that allows them the ability to update content.
+                    Weather forecast app
                 </div>
             </div>
 
@@ -91,19 +102,34 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-4 col-md-1"></div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
 
-        <div class="col-xs-12 col-sm-4 col-md-3"></div>
+            <div class="grid wow zoomIn">
+                <figure class="effect-bubba">
+                    <img class="portfolioImg" src="assets/images/code2.jpg" alt="img01"/>
+                    <figcaption>
+                        <h2>Check out the <span>Code</span></h2>
+
+                        <p>Click here</p>
+                        <a href="https://github.com/kaperkin/weather" target="_blank"></a>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-2"></div>
 
         <div class="col-xs-12 col-sm-4 col-md-4">
 
             <div class="grid wow zoomIn">
                 <figure class="effect-bubba">
-                    <img class="portfolioImg" src="assets/images/studentsays.png" alt="img01"/>
+                    <img class="portfolioImg" src="assets/images/corn.jpg" alt="img01"/>
                     <figcaption>
                         <h2>Check out the <span>Site</span></h2>
 
                         <p>Click here</p>
-                        <a href="http://159.203.197.54/" target="_blank"></a>
+                        <a href="http://kaperkin.github.io/weather/" target="_blank"></a>
                     </figcaption>
                 </figure>
             </div>
@@ -116,13 +142,13 @@
 
             <div class="iconbox wow slideInLeft">
                 <div class="iconbox-icon">
-                    <span class="fa fa-twitter"></span>
+                    <span class="icon-refresh"></span>
                 </div>
                 <div class="iconbox-text">
-                    <h3 class="iconbox-title">Tweetable</h3>
+                    <h3 class="iconbox-title">APIs</h3>
 
                     <div class="iconbox-desc">
-                        This page offers the ability to tweet a #studentsays quote.
+                      Local weather app that includes forecast, map of the area, and ability to search U.S. weather by zipcode
                     </div>
                 </div>
             </div>
@@ -133,13 +159,13 @@
 
             <div class="iconbox wow slideInRight">
                 <div class="iconbox-icon">
-                    <span class="fa fa-wordpress"></span>
+                    <span class="icon-wrench"></span>
                 </div>
                 <div class="iconbox-text">
                     <h3 class="iconbox-title">Built With:</h3>
 
                     <div class="iconbox-desc">
-                        Wordpress, including plugins, widgets, and custom CSS3
+                         jQuery, BootStrap, CSS3, HTML5, OpenWeather API, Google Maps API
                     </div>
                 </div>
             </div>
@@ -199,7 +225,9 @@
 <!-- Javascript files -->
 
 <script src="assets/js/jquery-1.11.1.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="assets/js/jquery.parallax-1.1.3.js"></script>
 <script src="assets/js/imagesloaded.pkgd.js"></script>
 <script src="assets/js/jquery.sticky.js"></script>
