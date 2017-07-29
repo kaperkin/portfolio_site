@@ -2,7 +2,12 @@
     margin-bottom: 15px;
 }
 
-.temp{
+.footRow{
+  text-align: center;
+}
+.social-links li{
     background-color: #222222;
+    border-radius: 4px;
     text-align: center;
+    padding: 5px;
 }
