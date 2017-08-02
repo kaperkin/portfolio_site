@@ -1,6 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
-@import url(http://fonts.googleapis.com/css?family=Lobster);
-
 /*!
  * Clean v2.0.0
  * Homepage: http://scripteden.com
@@ -29,18 +27,8 @@ a:hover {
 }
 
 /* ---------------------------------------------- /*
- * Transition elsements
+ * Transition elements
 /* ---------------------------------------------- */
-
-
-.navbar a,
-.form-control {
-	-webkit-transition: all 0.4s ease-in-out 0s;
-	   -moz-transition: all 0.4s ease-in-out 0s;
-		-ms-transition: all 0.4s ease-in-out 0s;
-		 -o-transition: all 0.4s ease-in-out 0s;
-			transition: all 0.4s ease-in-out 0s;
-}
 
 a,
 .btn {
@@ -56,9 +44,6 @@ a,
 /* ---------------------------------------------- */
 
 .btn,
-.form-control,
-.form-control:hover,
-.form-control:focus,
 .navbar-custom .dropdown-menu {
 	-webkit-box-shadow: none;
 			box-shadow: none;
@@ -113,61 +98,11 @@ h6 {
 .progress,
 #filter li,
 .scroll-up a,
-.form-control,
 .input-group-addon {
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 		 -o-border-radius: 3px;
 			border-radius: 3px;
-}
-
-
-/* ---------------------------------------------- /*
- * Input-group
-/* ---------------------------------------------- */
-
-.input-group .form-control {
-	z-index: auto;
-}
-
-.input-group-addon {
-	background: #D8E1E4;
-	border: 2px solid #D8E1E4;
-	padding: 6px 15px;
-	font-weight: 700;
-}
-
-/* ---------------------------------------------- /*
- * Inputs styles
-/* ---------------------------------------------- */
-
-.form-control {
-	background: #FFF;
-	border: 1px solid #D8E1E4;
-	font-size: 12px;
-	padding: 0 15px;
-}
-
-.form-control:focus{
-    border-color: rgba(135, 135, 135, 0.7);
-}
-
-.input-lg,
-.form-horizontal .form-group-lg .form-control {
-	height: 38px;
-	font-size: 13px;
-}
-
-.input-sm,
-.form-horizontal .form-group-sm .form-control {
-	font-size: 11px;
-	height: 30px;
-}
-
-textarea.form-control {
-	padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
 }
 
 /* ---------------------------------------------- /*
@@ -415,43 +350,6 @@ textarea.form-control {
 	padding: 0;
 }
 
-/* ---------------------------------------------- /*
- * Skills
-/* ---------------------------------------------- */
-
-.chart {
-    display: inline-block;
-    height: 140px;
-    margin: 50px 0;
-    position: relative;
-    text-align: center;
-    width: 140px;
-}
-.chart canvas {
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-.percent {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 140px;
-    z-index: 2;
-}
-.percent:after {
-    content: "%";
-    font-size: 50%;
-    margin-left: 0.1em;
-}
-
-/* ---------------------------------------------- /*
- * Contact
-/* ---------------------------------------------- */
-
-.ajax-response {
-	text-align: center;
-}
 
 /* ---------------------------------------------- /*
  * Footer
@@ -553,7 +451,6 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
 }
 
 .navbar-custom .dropdown-menu {
@@ -903,7 +800,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
 .no-js .cbp-qtrotator .cbp-qtcontent {
-	position: relative; 
+	position: relative;
 	z-index: 100;
 	pointer-events: auto;
 	opacity: 1;
@@ -956,7 +853,7 @@ figure.effect-bubba:hover p {
 }
 
 /* Example for media query */
-@media screen and (max-width: 30.6em) { 
+@media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
 		font-size: 70%;
@@ -967,4 +864,3 @@ figure.effect-bubba:hover p {
 	}
 
 }
-
