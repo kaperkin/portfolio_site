@@ -136,7 +136,8 @@
             <h3 class="iconbox-title">Challenge</h3>
 
             <div class="iconbox-desc">
-              Stories would sometimes appeartwice in a row.
+              Because stories appear in a random fashion, stories would
+              sometimes appear twice in a row. This created a bad user experience.
             </div>
           </div>
         </div>
@@ -152,8 +153,11 @@
             <h3 class="iconbox-title">Solution</h3>
 
             <div class="iconbox-desc">
-              I created a empty array to hold the displayed stories then created
-              a button for the use to start over.
+              Stories are spliced from the <code>quotes</code> array when displayed
+              and pushed into the <code>usedQuotes</code> array. When <code>quotes</code>
+              is empty, a button appears prompting the user to start over. When pressed,
+              stories are popped off of <code>usedQuotes</code> and pushed to
+              <code>quotes</code>.
             </div>
           </div>
         </div>

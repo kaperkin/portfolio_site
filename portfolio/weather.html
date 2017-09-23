@@ -146,8 +146,10 @@
 
             <div class="iconbox-desc">
               The <a href='https://openweathermap.org/api' target="_blank">OpenWeather API</a> returns the
-              forcast for the next five days in three hour incrememnts starting
-              from the current hour. Due to this, I couldn't query each object for a specific time of day.
+              forcast for the next five days in three hour intervals starting
+              from the current hour. Because of this, it was difficult to locate the
+              high and low temperatures for each day as the data in the JSON
+              is indexed from when the API call is made.
             </div>
 
           </div>
@@ -164,10 +166,16 @@
               <h3 class="iconbox-title">Solution</h3>
 
               <div class="iconbox-desc">
-               In order to get the high temperature for
-                each day, I started with and empty variable as the high temperature.
-                I then looped through each forecast object and compared each
-                temperature with the current high temperature within each day.
+               The <code>getForecast()</code> function contains variables to keep
+               track of the current day, previous day, high temperture, and low
+               temperature (<code>day</code>, <code>lastDay</code>, <code>highTempF</code>,
+               and <code>lowTempF</code>). As it loops through the JSON returned by
+               the API and compares each object's day and temperatures to the
+               <code>lastDay</code> and temperature variables, it replaces the values
+               of the temperature variables as needed. If the <code>day</code>
+               is different from <code>lastDay</code>, the <code>lastDay</code>
+               and temperature variables are added to the forecast, temperature
+               is reset, and <code>day</code> becomes <code>lastDay</code>.
               </div>
             </div>
           </div>

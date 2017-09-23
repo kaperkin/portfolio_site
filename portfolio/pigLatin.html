@@ -134,7 +134,9 @@
                   <h3 class="iconbox-title">CHALLENGE</h3>
                   <div class="iconbox-desc">
                        This project started as a challenge to translate one word.
-                       As the project grew, the translate word function gre and become rather complicated.
+                       As the project grew, the <code>translateButtonClicked()</code>
+                       function became more complex. This led to a rather long,
+                       convoluted function.
                   </div>
                 </div>
             </div>
@@ -150,8 +152,13 @@
                 <div class="iconbox-text">
                   <h3 class="iconbox-title">SOLUTION</h3>
                   <div class="iconbox-desc">
-                  I refactored the functionality so that each functionality became its own function.
-                  </div>
+                  Refactoring the action of the <code>translateButtonClicked()</code> function
+                  allowed each substep in the text translation process to be wrapped in its own function.
+                  This created the helper functions <code>punctuationHandler()</code>,
+                  <code>capitalization()</code>, and <code>joinWord()</code>. Each
+                  of these subfunctions was easier to test and modify than the previous,
+                  large <code>translateButtonClicked()</code> function.
+                      </div>
                 </div>
             </div>
 
